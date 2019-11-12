@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hellow World</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Anthony Personal Website</title>
+    </head>
 <body>
 
-Hello World
+    <nav>
+        <div id="logo-img">
+            <a href="#">
+                <img src="img/Grad Cap.png" alt="College Web Logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#jump_here">Me</a>
+            </li>
+            <li>
+                <a href="pdf/cv.pdf">CV</a>
+            </li>
+            <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="searchbox">
+        <input type="text" placeholder="Search Here">
+    </div>
+
+    <div id="banner">
+        <h1>Toni</h1>
+    </div>
+
+    <main>
+        <a href="blogslist.html">
+            <h2 class="section-heading">Me</h2>
+        </a>
+
+        <div id = "jump_here"></div>
+
+        <section>
+           <div id="card">
+               <div class="card-image">
+                   <a href="blogpost.html">
+                       <img src="img/sike.jpg" width="50%" height="50%" alt="Notebook">
+                   </a>
+               </div>
+
+               <div class="card-description">
+                   <a href="#">
+                       <h3>My Picture</h3>
+                   </a>
+                   <p>
+                       Jk, I'm actually a head with legs.
+                       But seriously, if you want some good movie recommendations, click the link below.
+                   </p>
+                   <a href="https://movielens.org/" class="btn-readmore">Movie Recommendations</a>
+               </div>
+           </div>
+
+           <div id="card">
+
+                <div class="card-description">
+                    <a href="#">
+                        <h3>My objective:</h3>
+                    </a>
+                    <p>
+                    I'm on the path for a mathematics and computer science double major. Here are some attached work below.
+                    </p>
+                    <object data="pdf/MathHW.pdf" type="application/pdf" width="100%" height="100%">
+                        <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+                    </object>
+                </div>
+        </section>
+
+        <h2 class="section-heading">All Academic Papers</h2>
+
+        <section>
+                <div id="card">
+                    <div class="card-description">
+                        <a href="#">
+                            <h3>IB Mathematics Paper</h3>
+                        </a>
+                        <object data="pdf/IB MAth HL IA_viewer.pdf" type="application/pdf" width="150%" height="150%">
+                            <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+                        </object>
+                    </div>
+                </div>
+
+                <div id="card">
+                     <div class="card-description">
+                         <a href="#">
+                             <h3>IB Environmental Paper</h3>
+                         </a>
+                         <object data="pdf/IB ESS Independent Investigation_viewer.pdf" type="application/pdf" width="150%" height="150%">
+                            <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
+                        </object>
+                     </div>
+             </section>
+
+             <footer>
+                 <div id="left-footer">
+                     <h3>Quick Links</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://www.oxy.edu/">School: Occidental College</a>
+                            </li>
+                            <li>
+                                <a href="#">Employer: Please employ me, me need money</a>
+                            </li>
+                        </ul>
+                    </p>
+                 </div>
+
+                 <div id="right-footer">
+                     <h3>Follow me on</h3>
+                     <div id="social-media-footer">
+                         <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                         </ul>
+                     </div>
+                     <p>This website is developed by Anthony Vasquez</p>
+                 </div>
+             </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+
+
 </body>
 </html>
