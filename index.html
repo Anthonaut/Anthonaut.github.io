@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
         crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <title>Anthony Personal Website</title>
-    </head>
+    <title>CAS Code</title>
+</head>
+
 <body>
+    <div id="slideout-menu">
+            <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="Seach Here">
+                    </li>
+                </ul>       
+    </div>
 
     <nav>
         <div id="logo-img">
             <a href="#">
-                <img src="img/Grad Cap.png" alt="College Web Logo">
+                <img src="img/Grad Cap.png" alt="College Web Logo">  
             </a>
         </div>
         <div id="menu-icon">
@@ -26,10 +47,13 @@
                 <a class="active" href="index.html">Home</a>
             </li>
             <li>
-                <a href="#jump_here">Me</a>
+                <a href="blogslist.html">Blog</a>
             </li>
             <li>
-                <a href="pdf/cv.pdf">CV</a>
+                <a href="blogslist.html">Projects</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
             </li>
             <li>
                 <div id="search-icon">
@@ -38,80 +62,109 @@
             </li>
         </ul>
     </nav>
-
+    
     <div id="searchbox">
         <input type="text" placeholder="Search Here">
     </div>
 
     <div id="banner">
-        <h1>Toni</h1>
+        <h1>&lt;CAS Code&gt;</h1>
+        <h3>Learn coding from Scratch</h3>
     </div>
 
     <main>
         <a href="blogslist.html">
-            <h2 class="section-heading">Me</h2>
+            <h2 class="section-heading">All Blogs</h2>
         </a>
-
-        <div id = "jump_here"></div>
-
+        
         <section>
            <div id="card">
                <div class="card-image">
                    <a href="blogpost.html">
-                       <img src="img/sike.jpg" width="50%" height="50%" alt="Notebook">
+                       <img src="img/Girl Laptop.jpg" alt="Notebook">
                    </a>
                </div>
-
+               
                <div class="card-description">
-                   <a href="#">
-                       <h3>My Picture</h3>
+                   <a href="blogpost.html">
+                       <h3>The Blog Title Here</h3>
                    </a>
                    <p>
-                       Jk, I'm actually a head with legs.
-                       But seriously, if you want some good movie recommendations, click the link below.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                    </p>
-                   <a href="https://movielens.org/" class="btn-readmore">Movie Recommendations</a>
+                   <a href="blogpost.html" class="btn-readmore">Read more</a>
                </div>
            </div>
-
+           
            <div id="card">
-
+                <div class="card-image">
+                    <a href="#">
+                        <img src="img/Girl Laptop.jpg" alt="Book Stack">
+                    </a>
+                </div>
+                
                 <div class="card-description">
                     <a href="#">
-                        <h3>My objective:</h3>
+                        <h3>The Blog Title Here</h3>
                     </a>
                     <p>
-                    I'm on the path for a mathematics and computer science double major. Here are some attached work below.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <object data="pdf/MathHW.pdf" type="application/pdf" width="100%" height="100%">
-                        <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
-                    </object>
+                    <a href="#" class="btn-readmore">Read more</a>
                 </div>
         </section>
-
-        <h2 class="section-heading">All Academic Papers</h2>
+        
+        <h2 class="section-heading">All Projects</h2>
 
         <section>
                 <div id="card">
+                    <div class="card-image">
+                        <a href="#">
+                            <img src="img/Girl Laptop.jpg" alt="Library">
+                        </a>
+                    </div>
+                    
                     <div class="card-description">
                         <a href="#">
-                            <h3>IB Mathematics Paper</h3>
+                            <h3>The Project Title Here</h3>
                         </a>
-                        <object data="pdf/IB_MAth_HL_IA_viewer.pdf" type="application/pdf" width="150%" height="150%">
-                            <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
-                        </object>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="#" class="btn-readmore">Read more</a>
                     </div>
                 </div>
-
+                
                 <div id="card">
+                     <div class="card-image">
+                         <a href="#">
+                             <img src="img/Girl Laptop.jpg" alt="Person working">
+                         </a>
+                     </div>
+                     
                      <div class="card-description">
                          <a href="#">
-                             <h3>IB Environmental Paper</h3>
+                             <h3>The Project Title Here</h3>
                          </a>
-                         <object data="pdf/IB ESS Independent Investigation_viewer.pdf" type="application/pdf" width="150%" height="150%">
-                            <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
-                        </object>
+                         <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                         </p>
+                         <a href="#" class="btn-readmore">Read more</a>
                      </div>
+             </section>
+
+             <h2 class="section-heading">Source Code</h2>
+
+             <section id="section-source">
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                 </p>
+                 <a href="#" class="btn-readmore">GitHub Profile</a>
              </section>
 
              <footer>
@@ -120,31 +173,43 @@
                     <p>
                         <ul>
                             <li>
-                                <a href="https://www.oxy.edu/">School: Occidental College</a>
+                                <a href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#">Employer: Please employ me, me need money</a>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Blogd</a>
+                            </li>
+                            <li>
+                                <a href="#">Project</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
                             </li>
                         </ul>
-                    </p>
+                    </p> 
                  </div>
 
                  <div id="right-footer">
-                     <h3>Follow me on</h3>
+                     <h3>Follow us on</h3>
                      <div id="social-media-footer">
                          <ul>
                             <li>
-                                <a href="https://www.facebook.com/">
+                                <a href="#">
                                     <i class="fab fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/">
+                                <a href="#">
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/">
+                                <a href="#">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </li>
@@ -157,7 +222,6 @@
     </main>
 
     <script src="main.js"></script>
-
-
 </body>
+
 </html>
