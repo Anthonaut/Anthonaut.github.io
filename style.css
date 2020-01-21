@@ -88,8 +88,8 @@ body {
   float: right;
   text-align: right;
 }
-.navbar-link {
-  color: #fff !important;
+.nav-link {
+  color: #fff;
 }
 .skills-bar p {
   margin-bottom: 6px;
