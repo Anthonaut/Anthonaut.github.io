@@ -91,7 +91,35 @@ body {
 .nav-link {
   color: #fff;
 }
-.skills-bar p {
+/*--Drop down Menu*/
+/** {
+  margin: 0px;
+  padding: 0px;
+}*/
+.navbar-collapse ul {
+  list-style: none;
+  position: relative;
+}
+.navbar-collapse ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar-collapse ul li {
+  background-color: #000;
+  width: 150px;
+  /*border: 1px solid white;*/
+  height: 50px;
+  text-align: center;
+}
+.navbar-collapse ul li:hover > ul {
+  display: block;
+}
+/* End - Drop down Menu*/
+
+.nav-link .skills-bar p {
   margin-bottom: 6px;
   font-weight: 600;
 }
